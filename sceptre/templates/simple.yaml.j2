@@ -1,0 +1,12 @@
+---
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Simple template for testing Sceptre
+
+
+Resources:
+  Type: AWS::SSM::Parameter
+  Properties:
+    Name: !Sub '/testing/{{ sceptre_user_data.sceptre_env }}'
+    Type: String
+    Value: "Sceptre env: {{ sceptre_user_data.sceptre_env }}"
+

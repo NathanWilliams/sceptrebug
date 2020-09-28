@@ -1,0 +1,5 @@
+---
+template_path: simple.yaml.j2
+
+sceptre_user_data:
+  sceptre_env: {{env}}
