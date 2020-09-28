@@ -8,7 +8,7 @@ Sceptre caches template values between StackGroups, resulting in incorrect rende
 In the `sceptre` directory there are two StackGroups for different environments.
 
 In the `dev` environment in `dev/config.yaml` a variable `env` is set.
-In the `ci` environment this has been ommitted.
+In the `ci` environment this has been omitted.
 
 ## Expected behaviour
 
